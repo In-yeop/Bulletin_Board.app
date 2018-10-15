@@ -18,7 +18,7 @@
         </activity>
 
         <activity android:name=".writing"
-        android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"/>
 
         <activity android:name=".read"
             android:screenOrientation="portrait"/>

@@ -34,7 +34,7 @@
                 android:layout_weight="4"
                 android:fontFamily="@font/cooljazz"
                 android:includeFontPadding="false"
-                android:paddingTop="30dp"
+                android:paddingTop="20dp"
                 android:text="CS"
                 android:textColor="@android:color/background_dark"
                 android:textSize="140dp" />
@@ -46,7 +46,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:includeFontPadding="false"
-                android:paddingTop="15dp"
+                android:paddingTop="5dp"
                 android:textSize="20dp"
                 android:text="\u0022 Bulletin Board \u0022"
                 android:fontFamily="@font/cooljazz"/>
@@ -61,8 +61,8 @@
 
             <ListView
                 android:id="@+id/List_view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="30dp"

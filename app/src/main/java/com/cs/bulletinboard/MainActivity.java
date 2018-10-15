@@ -1,12 +1,16 @@
 package com.cs.bulletinboard;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
-import android.content.Intent;
+import java.util.ArrayList;
+
 
 
 public class MainActivity extends Activity {
@@ -28,6 +32,14 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (MainActivity.this,writing.class);
+                startActivity(intent);
+            }
+        });
+
+        listview.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            @Override
+            public void onItemClick(AdapterView parent, View v, int position, long id){
+                Intent intent = new Intent(MainActivity.this,read.class);
                 startActivity(intent);
             }
         });

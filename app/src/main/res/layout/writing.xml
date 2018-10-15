@@ -23,7 +23,7 @@
                 android:layout_gravity="center"
                 android:fontFamily="@font/cooljazz"
                 android:includeFontPadding="false"
-                android:paddingTop="30dp"
+                android:paddingTop="20dp"
                 android:text="CS"
                 android:textColor="@android:color/background_dark"
                 android:textSize="140dp" />
